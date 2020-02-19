@@ -11,31 +11,31 @@ class _PerguntaAppState extends State<PerguntaApp> {
   var _pontuacaoTotal = 0;
 
   final List<Map<String, Object>> _perguntas = const [
+    // {
+    //   'texto': 'Qual sua cor favorita?',
+    //   'respostas': [
+    //     {'texto': 'Preto', 'pontuacao': 10},
+    //     {'texto': 'Vermelho', 'pontuacao': 5},
+    //     {'texto': 'Verde', 'pontuacao': 4},
+    //     {'texto': 'Branco', 'pontuacao': 9},
+    //   ],
+    // },
     {
-      'texto': 'Qual sua cor favorita?',
+      'texto': 'Como devemos chamar o Breno?',
       'respostas': [
-        {'texto': 'Preto', 'pontuacao': 10},
-        {'texto': 'Vermelho', 'pontuacao': 5},
-        {'texto': 'Verde', 'pontuacao': 4},
-        {'texto': 'Branco', 'pontuacao': 9},
+        {'texto': 'Uchoâ', 'pontuacao': 5},
+        {'texto': 'Breno', 'pontuacao': 2},
+        {'texto': 'Grande Uchoâ', 'pontuacao': 20},
+        {'texto': 'Mestre Uchoâ', 'pontuacao': 10},
       ],
     },
     {
-      'texto': 'Qual seu animal favorito?',
+      'texto': 'Fred é frontend developer?',
       'respostas': [
-        {'texto': 'Coelho', 'pontuacao': 10},
-        {'texto': 'Cobra', 'pontuacao': 9},
-        {'texto': 'Elefante', 'pontuacao': 8},
-        {'texto': 'Leão', 'pontuacao': 7},
-      ],
-    },
-    {
-      'texto': 'Qual seu instrutor favorito?',
-      'respostas': [
-        {'texto': 'Maria', 'pontuacao': 10},
-        {'texto': 'João', 'pontuacao': 5},
-        {'texto': 'Leo', 'pontuacao': 9},
-        {'texto': 'Pedro', 'pontuacao': 2},
+        {'texto': 'Claro', 'pontuacao': 10},
+        {'texto': 'Com Certeza', 'pontuacao': 20},
+        // {'texto': 'Leo', 'pontuacao': 9},
+        // {'texto': 'Pedro', 'pontuacao': 2},
       ],
     },
   ];
